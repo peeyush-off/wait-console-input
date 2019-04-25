@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb-base/legacy",
+    "rules": {
+    "indent": ["error", 4],
+    "no-var": "error"
+    },
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module"
+    },
+    "env": {
+        "node": true
+    }
+}
