@@ -1,0 +1,27 @@
+{
+  "name": "new-npm-module",
+  "version": "0.1.0",
+  "description": "Synchronous inputter for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peeyush-pant/wait-console-input.git"
+  },
+  "author": "Peeyush Pant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peeyush-pant/wait-console-input/issues"
+  },
+  "homepage": "https://github.com/peeyush-pant/wait-console-input#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
