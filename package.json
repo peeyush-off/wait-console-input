@@ -1,5 +1,5 @@
 {
-  "name": "new-npm-module",
+  "name": "wait-console-input",
   "version": "0.1.0",
   "description": "Synchronous inputter for nodejs",
   "main": "index.js",
