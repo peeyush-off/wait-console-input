@@ -2,8 +2,10 @@
 
 ---
 ### Synchronous inputter for nodejs.
+
 This module provides various functions that can be used to block program execution and wait for user input from console.
 These functions provide input in various datatypes. 
+
 ---
 #### Installation
 ```
