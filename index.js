@@ -1,5 +1,2 @@
-const inputReader = require('./lib/inputReader.js');
 
-module.exports = {
-    inputReader
-};
+module.exports = require('./lib/inputReader.js');
