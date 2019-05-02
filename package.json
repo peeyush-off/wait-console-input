@@ -1,6 +1,6 @@
 {
   "name": "wait-console-input",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Synchronous inputter for nodejs",
   "main": "index.js",
   "scripts": {
