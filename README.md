@@ -23,6 +23,29 @@ npm install wait-console-input
   - readBoolean()
   - wait()
 ---
+##### General Use
+```
+const inputReader = require('wait-console-input')
+
+let inputArray = inputReader.readNumberArray( "Enter an array", {
+    reInputOnError: true,
+    separator: 'enter',
+    size: 5
+});
+console.log(inputArray);
+```
+
+Output:
+```
+Enter an array
+1
+2
+3
+4
+5
+[ 1, 2, 3, 4, 5 ]
+```
+
 ##### Usage
  
 ###### 1. `readChar(promptText, paramObject)`
@@ -34,6 +57,7 @@ npm install wait-console-input
 > Example usage
 `let input = readChar('Input a character', { reAskOnChars: ['z'] })`;
 
+**Careful `readChar` will not exit on ctrl+c**
 ###### 2. `readInteger(promptText)`
 *Get an integer number from user*
 1. `promptext` is The text to be displayed to the user on the console before input.
@@ -87,4 +111,5 @@ npm install wait-console-input
 > Example usage
 `wait('Press a button to continue')`;
 
+**Careful `wait` will not exit on ctrl+c**
 ##### This module is just a wrapper around the ```readline-sync``` module.
