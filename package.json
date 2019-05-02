@@ -15,6 +15,11 @@
   "bugs": {
     "url": "https://github.com/peeyush-pant/wait-console-input/issues"
   },
+  "keywords": [
+    "console input",
+    "synchronous input",
+    "node input"
+  ],
   "homepage": "https://github.com/peeyush-pant/wait-console-input#readme",
   "devDependencies": {
     "eslint": "^5.3.0",
