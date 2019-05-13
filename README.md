@@ -55,7 +55,7 @@ Enter an array
     - `reAskOnChars` is an array where you can list out all the characters for which the user will be asked to input again.
 
 > Example usage
-`let input = readChar('Input a character', { reAskOnChars: ['z'] })`;
+`let input = inputReader.readChar('Input a character', { reAskOnChars: ['z'] })`;
 
 **Careful `readChar` will not exit on ctrl+c**
 ###### 2. `readInteger(promptText)`
@@ -63,19 +63,19 @@ Enter an array
 1. `promptext` is The text to be displayed to the user on the console before input.
 
 > Example usage
-`let input = readInteger('Input an integer')`;
+`let input = inputReader.readInteger('Input an integer')`;
 ###### 3. `readFloat(promptText)`
 *Get a floating point number from user*
 1. `promptext` is The text to be displayed to the user on the console before input.
 
 > Example usage
-`let input = readFloat('Input an float')`;
+`let input = inputReader.readFloat('Input an float')`;
 ###### 4. `readLine(promptText)`
 *Get a string from user*
 1. `promptext` is The text to be displayed to the user on the console before input.
 
 > Example usage
-`let input = readLine('Input an float')`;
+`let input = inputReader.readLine('Input an float')`;
 
 ###### 5. `readNumberArray(promptText, paramObject)`
 *Get a number array*
@@ -86,7 +86,7 @@ Enter an array
     - `size` This is the size of the array. This will be only used when seperator used is enter. Default value is `1`.
 
 > Example usage
-`let input = readNumberArray('Input a number array', {reInputOnError: true, seperator: 'enter', size: 5})`;
+`let input = inputReader.readNumberArray('Input a number array', {reInputOnError: true, seperator: 'enter', size: 5})`;
 
 ###### 6. `readArray(promptText, paramObject)`
 *Get an generic array.*
@@ -96,20 +96,20 @@ Enter an array
     - `size` This is the size of the array. This will be only used when seperator used is enter. Default value is `1`.
 
 > Example usage
-`let input = readArray('Input an array', { seperator: 'enter', size: 5})`;
+`let input = inputReader.readArray('Input an array', { seperator: 'enter', size: 5})`;
 
 ###### 7. `readBoolean(promptText)`
 *Get the true or false value entered by user on the console.*
 1. `promptext` is the text to be displayed to the user on the console before input.
 
 > Example usage
-`let input = readBoolean('Input a boolean')`;
+`let input = inputReader.readBoolean('Input a boolean')`;
 ###### 8. `wait(promptText)`
 *Wait till user presses something*
 1. `promptext` is The text to be displayed to the user on the console before input.
 
 > Example usage
-`wait('Press a button to continue')`;
+`inputReader.wait('Press a button to continue')`;
 
 **Careful `wait` will not exit on ctrl+c**
 ##### This module is just a wrapper around the ```readline-sync``` module.
